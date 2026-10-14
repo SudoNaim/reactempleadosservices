@@ -1,0 +1,95 @@
+.home-page {
+  min-height: calc(100vh - 74px);
+  background: #f8fafc;
+  color: #172033;
+}
+
+.home-hero {
+  background: linear-gradient(135deg, #eef5ff 0%, #f8fafc 58%, #e8f7f3 100%);
+}
+
+.home-eyebrow {
+  color: #0d6efd;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12rem;
+}
+
+.home-hero h1 {
+  max-width: 720px;
+  letter-spacing: -0.04em;
+}
+
+.home-summary-card,
+.home-feature-card {
+  border: 1px solid #e5eaf1;
+  border-radius: 1rem;
+  background: #ffffff;
+}
+
+.home-summary-card {
+  padding: 1.5rem;
+}
+
+.home-status-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: #20c997;
+  box-shadow: 0 0 0 0.3rem #d8f8ed;
+}
+
+.home-stat {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+}
+
+.home-stat-number {
+  color: #172033;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.home-stat-label {
+  color: #6c757d;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.home-feature-card {
+  padding: 1.5rem;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.home-feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(23, 32, 51, 0.08);
+}
+
+.home-icon {
+  align-items: center;
+  border-radius: 0.75rem;
+  display: flex;
+  font-size: 1.7rem;
+  height: 3.25rem;
+  justify-content: center;
+  width: 3.25rem;
+}
+
+.home-icon-blue {
+  background: #e8f1ff;
+  color: #0d6efd;
+}
+
+.home-icon-green {
+  background: #e4f8f1;
+  color: #198754;
+}
+
+.home-icon-orange {
+  background: #fff1df;
+  color: #fd7e14;
+}
