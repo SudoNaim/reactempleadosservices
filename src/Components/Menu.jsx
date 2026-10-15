@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-
+import { NavLink } from 'react-router-dom'; 
 export default class Menu extends Component {
     render() {
         return (
             <nav  class="navbar bg-primary" data-bs-theme="dark">
                 <div class="container-fluid">
                     <img src = "https://escudosdefutbolyequipaciones.com/images_esc3/ESPA/MADRID/escudos/ESC_C.D.%20TAJAMAR.png" alt="Logo" style={{width: '50px', height: '50px'}}></img>
-                    <a class="navbar-brand" href="#" style={{fontWeight: 'bold', textDecoration: 'none'}}>Empleados Tajamar Web</a>
+                    <a class="navbar-brand" href="/" style={{fontWeight: 'bold', textDecoration: 'none'}}>Empleados Tajamar Web</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -18,10 +18,10 @@ export default class Menu extends Component {
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                <NavLink className="nav-link" to="/empleados">Empleados</NavLink>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

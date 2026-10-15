@@ -21,12 +21,12 @@ export default class Empleados extends Component {
     return (
       <div>
         <h1>Empleados del centro</h1>
-        <table className='table table-striped'>
+        <table className='table table-striped' style={{width: '80%', margin: '0 auto'}}>
           <thead>
             <tr>
-              <th>IdEmpleado</th>
-              <th>Apellido</th>
-              <th>oficio</th>
+              <th>ID EMPLEADO</th>
+              <th>APELLIDO</th>
+              <th>OFICIO</th>
             </tr>
           </thead>
           <tbody>

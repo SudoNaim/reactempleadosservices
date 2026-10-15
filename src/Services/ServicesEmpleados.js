@@ -6,6 +6,8 @@ export default class ServicesEmpleados {
         return new Promise((resolve) => {
             let url = Global.urlApiEmpleados;
             let request = "api/Empleados";
+            console.log("URL: "+url);
+            console.log(url + request)
             axios.get(url + request).then(response => {
                 console.log("Leyendo Empleados");
                 resolve(response.data);

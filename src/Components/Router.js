@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
+import Empleados from './Empleados';
 import HomeComponent from "./Home";
 import Menu from "./Menu";
 export default class Router extends Component {
@@ -11,6 +11,7 @@ export default class Router extends Component {
         <br/>
         <Routes>
           <Route path="/" element={<HomeComponent/>}/>
+          <Route path="/empleados" element={<Empleados/>}/>
         </Routes>
       </BrowserRouter>
     )
